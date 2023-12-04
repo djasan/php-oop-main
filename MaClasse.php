@@ -8,7 +8,7 @@ class MaClass
     public string $prenom;
     public const PI = 3.14;
     static string $varStatic='je suis une variable statique';
-    static <
+    
     public function displayMethode($value)
     {
         return $this->prenom . ' aime la couleur ' . $this->couleur . ' ' . $value;
